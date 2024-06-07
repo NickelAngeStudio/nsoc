@@ -1,8 +1,28 @@
 [package]
-name = "nsdcs"
-version = "0.1.0"
+name = "nsoc"
+version = "0.0.0"
 edition = "2021"
+authors = ["NickelAnge.Studio <mathieu.grenier@nickelange.studio>"]
+description = "Nifty and Simple Dynamic ConStant provides neat macros to override constants at compilation."
+keywords = ["build", "dynamic", "constant", "utility", "cargo"]
+categories = ["development-tools", "configuration"]
+repository = "https://github.com/NickelAngeStudio/nsdcs"
+homepage = "https://github.com/NickelAngeStudio/nsdcs/wiki"
+license = "MIT"
+readme = "README.md"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# List of excluded files
+exclude = [
+    "target/*",
+    "img/*",
+    "tests/*",
+    ".git/*",
+    ".vscode/*",
+    ".cargo/*",
+    ".github/*",
+    ".gitignore",
+]
+
 
 [dependencies]
